@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiénes Somos - IphoneCase</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+  <!-- Navbar (misma que index.html) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://via.placeholder.com/40" alt="Logo" width="40" class="rounded-circle" />
+        IphoneCase
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="quienes.html">Quiénes Somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." />
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+        <a href="login.html" class="btn btn-outline-primary ms-2">Login</a>
+        <a href="registro.html" class="btn btn-primary ms-2">Registrarse</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Nuestro Equipo</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Integrante 1 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" class="card-img-top" alt="Fundadora 1">
+          <div class="card-body">
+            <h5 class="card-title">Florencia Martínez Cundom</h5>
+            <p class="card-text">Fundadora y CEO de IphoneCase. Apasionada por la tecnología y la innovación.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Integrante 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://randomuser.me/api/portraits/men/45.jpg" class="card-img-top" alt="Integrante 2">
+          <div class="card-body">
+            <h5 class="card-title">Agustina Martinez Cundom</h5>
+            <p class="card-text">Encargado de logística y operaciones. Amante de los procesos eficientes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Integrante 3 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" class="card-img-top" alt="Integrante 3">
+          <div class="card-body">
+            <h5 class="card-title">Mariana Martinez Cundom</h5>
+            <p class="card-text">Diseñadora de productos. Creadora de nuestras fundas más vendidas.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="acerca.html" class="btn btn-outline-dark">Conocé más sobre nosotros</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 IphoneCase - Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
